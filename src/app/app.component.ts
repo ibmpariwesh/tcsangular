@@ -11,7 +11,9 @@ export class AppComponent {
 
   }
   user = { //model
-    name: 'Ram'
+    name: 'Ram',
+    age:1, 
+    gender:''
   }
 
   save() {
@@ -19,7 +21,6 @@ export class AppComponent {
     const promise = this.userservice.saveUser(this.user);
     promise.subscribe(response => {
       console.log(response);
-      
     })
   }
 }

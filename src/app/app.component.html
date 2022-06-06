@@ -1,6 +1,8 @@
 <div>
   <h3>User form</h3>
   <input [(ngModel)]="user.name">
-  <input [(ngModel)]="user.name">
+  <input [(ngModel)]="user.age">
+  <input type="radio" name="gender" value="Male" [(ngModel)]="user.gender">Male
+  <input type="radio" name="gender" value="Female" [(ngModel)]="user.gender">Female
   <button (click)="save()">Save</button>
 </div>

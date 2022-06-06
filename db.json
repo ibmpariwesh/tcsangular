@@ -3,6 +3,23 @@
     {
       "name": "Ram",
       "id": 1
+    },
+    {
+      "name": "Ram",
+      "age": 1,
+      "id": 2
+    },
+    {
+      "name": "Ram",
+      "age": 1,
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "name": "Ram",
+      "age": 1,
+      "gender": "Female",
+      "id": 4
     }
   ]
 }
