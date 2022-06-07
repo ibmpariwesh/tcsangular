@@ -16,10 +16,11 @@ export class AppComponent {
     age: 1,
     gender: ''
   }
-  deleteUser(user:any){
+  deleteUser(user:any, index:number){
     const observable = this.userservice.deleteUser(user);
     observable.subscribe(response =>{
       alert('delete succssfully');
+      this.users.splice(index,1);
     })
   }
   ngOnInit() {
