@@ -1,0 +1,8 @@
+orderform
+
+item name: iphone
+price: 300
+qunatity:2
+address: single text field
+
+total amount
