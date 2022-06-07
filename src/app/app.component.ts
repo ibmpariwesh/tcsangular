@@ -16,6 +16,12 @@ export class AppComponent {
     age: 1,
     gender: ''
   }
+  deleteUser(user:any){
+    const observable = this.userservice.deleteUser(user);
+    observable.subscribe(response =>{
+      alert('delete succssfully');
+    })
+  }
   ngOnInit() {
     console.log('init');
     const promise = this.userservice.getAllUsers();

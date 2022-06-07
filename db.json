@@ -18,12 +18,6 @@
     {
       "name": "Ram",
       "age": 1,
-      "gender": "Female",
-      "id": 4
-    },
-    {
-      "name": "Ram",
-      "age": 1,
       "gender": "",
       "id": 5
     },
