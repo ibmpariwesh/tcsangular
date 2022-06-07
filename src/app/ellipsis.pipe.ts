@@ -12,5 +12,4 @@ export class EllipsisPipe implements PipeTransform {
     }
     return value;
   }
-
 }

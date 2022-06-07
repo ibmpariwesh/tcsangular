@@ -3,14 +3,13 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
-import { EllipsisPipe } from './ellipsis.pipe';
+import { MymoduleModule } from './mymodule/mymodule.module';
 
-@NgModule({
+@NgModule({//decorator
   declarations: [
-    AppComponent,
-    EllipsisPipe
+    AppComponent
   ],
-  imports: [FormsModule, HttpClientModule,
+  imports: [MymoduleModule,FormsModule, HttpClientModule,
     BrowserModule
   ],
   providers: [],
